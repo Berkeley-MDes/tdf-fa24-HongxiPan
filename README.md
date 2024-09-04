@@ -37,9 +37,11 @@ https://adam-6zhapuwfc-adam-f5567005.vercel.app/
 
 This is a AI+CAD tool made by guys from cohort 3, and it's really cool to generate simple models from text, but that's what happens when it deals with complex semantics or relatively organic objects:
 
-<img width="200" alt="It thinks this is a fish" src="assets/fish.png">
+<img width="200" alt="It thinks this is a fish" src="assets/week1/fish.png">
 
-<img width="200" alt="Also, this is a dog" src="assets/dog.png">
+<img width="200" alt="Also, this is a dog" src="assets/week1/dog.png">
+
+<img width="200" alt="Interestingly, it can do design as well" src="assets/week1/design.png">
 
 ---
 
