@@ -4,6 +4,8 @@ Welcome to your new GitHub repository!
 # Outline
 [week 1](README.md#week-1-example-report-1)
 
+[week 1](README.md#week-1)
+
 week 2, etc...
 
 ---
@@ -18,6 +20,26 @@ The specific file that I’m typing into right now is the **README.md** for this
 <h6> (💡 TIP 2: GitHub Markdown supports <a href="https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2"> <em>HTML formatting</em> too, including emojis 😄</a>, in case that helps!) </h6>
 
 ### :star: Whatever you write in your **README.md** will show up on the “front page” of your GitHub repo. This is where we’ll be looking for your [weekly progress reports](https://github.com/Berkeley-MDes/24f-desinv-202/wiki/3.0-Weekly-Submissions#weekly-progress-report). They might look something like this: ###
+
+# Week 1 #
+## Week of 09/05/2024
+
+This week:
+1. Learning how to use github, still learning how to write markdowns (like right now, hopefully I'm doing it right).
+
+2. Got my maker pass, and still working on the laser cutter training.
+
+3. Watched some rhino and grasshopper tutorials.
+
+Fun stuff:
+https://adam-6zhapuwfc-adam-f5567005.vercel.app/
+This is a AI+CAD tool made by guys from cohort 3, and it's really cool to generate simple models from text, but that's what happens when it deals with complex semantics or relatively organic objects:
+
+<img width="200" alt="It thinks this is a fish" src="assets/fish.png">
+
+<img width="200" alt="Also, this is a dog" src="assets/dog.png">
+
+---
 
 # Week 1: Example Report 1 #
 ## Week of 09/05/2024
