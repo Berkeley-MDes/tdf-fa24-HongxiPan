@@ -2,7 +2,7 @@
 Welcome to your new GitHub repository! 
 
 # Outline
-[week 1](README.md#week-2)
+[week 2](README.md#week-2)
 
 [week 1](README.md#week-1)
 
