@@ -23,13 +23,14 @@ The specific file that I’m typing into right now is the **README.md** for this
 ## Week of 09/12/2024
 
 This week:
-1.diagram of the workflow in GH
+
+### 1.diagram of the workflow in GH ###
 
 <img width="800" alt="phone stand" src="assets/week2/gh -phone stand.png">
 
 I tried to figure out every step in the sample file, took screenshots of them and made the images into a flowchart. I think it is clear for me to understand how it works.
 
-2.play with the sample file
+### 2.play with the sample file ###
 
 Mon.
 
@@ -63,19 +64,19 @@ The center of gravity and assembly didn't look too good, so I adjusted the posit
 
 Finally green. But I didn't like the idea of a round hole in the center in the middle of a cube, so I changed it to a square.
 
+Looks good. And thenI baked it.
+
 <img width="800" alt="" src="assets/week2/9.png">
 
-Looks good. And I baked it.
-
-3.3D Printing.
+### 3.3D Printing.###
 
 I tried 3D printing this week. The first attempt wasn't very successful, and Cody threw it in the trash.
 
-<img width="800" alt="" src="assets/week2/heart1.jpg">
+<img width="800" alt="0" src="assets/week2/heart2.jpg">
 
 But neither of us were quite sure what the problem was, so Cody helped me print it on a different machine.
 
-<img width="800" alt="" src="assets/week2/heart2.jpg">
+<img width="800" alt="0" src="assets/week2/heart1.jpg">
 
 And it worked. Many thanks to Cody.
 
