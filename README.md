@@ -24,13 +24,13 @@ The specific file that I’m typing into right now is the **README.md** for this
 
 This week:
 
-### 1.diagram of the workflow in GH ###
+### 1. diagram of the workflow in GH ###
 
 <img width="800" alt="phone stand" src="assets/week2/gh -phone stand.png">
 
 I tried to figure out every step in the sample file, took screenshots of them and made the images into a flowchart. I think it is clear for me to understand how it works.
 
-### 2.play with the sample file ###
+### 2. play with the sample file ###
 
 Monday
 
@@ -64,11 +64,11 @@ The center of gravity and assembly didn't look too good, so I adjusted the posit
 
 Finally green. But I didn't like the idea of a round hole in the center in the middle of a cube, so I changed it to a square.
 
-Looks good. And then I baked it.
+Looks good. And then I baked it. (Why does it look so much like an ashtray?)
 
 <img width="800" alt="" src="assets/week2/9.png">
 
-### 3.3D Printing.###
+### 3. 3D Printing ###
 
 I tried 3D printing this week. The first attempt wasn't very successful, and Cody threw it in the trash.
 
