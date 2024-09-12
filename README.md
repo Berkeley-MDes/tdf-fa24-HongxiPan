@@ -32,7 +32,7 @@ I tried to figure out every step in the sample file, took screenshots of them an
 
 ### 2.play with the sample file ###
 
-Mon.
+Monday
 
 <img width="800" alt="2" src="assets/week2/21.png">
 
@@ -44,7 +44,7 @@ I tried to want to show all the invisible forms to figure out how the final shap
 
 After trying to adjust all the sliders, I tried changing the shape of the base for the first time. But unfortunately this time it failed because the cylindrical shape is just a surface not a solid.
 
-Thu.
+Thursday
 
 <img width="800" alt="4" src="assets/week2/4.png">
 
@@ -64,7 +64,7 @@ The center of gravity and assembly didn't look too good, so I adjusted the posit
 
 Finally green. But I didn't like the idea of a round hole in the center in the middle of a cube, so I changed it to a square.
 
-Looks good. And thenI baked it.
+Looks good. And then I baked it.
 
 <img width="800" alt="" src="assets/week2/9.png">
 
