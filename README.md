@@ -1,12 +1,10 @@
-# Hello DES INV 202 Student!
-Welcome to your new GitHub repository! 
+# Welcome to my workspace!
+Welcome to Hongxi Pan's workspace! 
 
 # Outline
 [week 2](README.md#week-2)
 
 [week 1](README.md#week-1)
-
-week 2, etc...
 
 ---
 
@@ -25,6 +23,8 @@ The specific file that I’m typing into right now is the **README.md** for this
 ## Week of 09/12/2024
 
 This week:
+1.diagram of the workflow in GH
+
 
 ---
 
