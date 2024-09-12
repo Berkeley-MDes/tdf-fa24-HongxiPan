@@ -25,6 +25,59 @@ The specific file that I’m typing into right now is the **README.md** for this
 This week:
 1.diagram of the workflow in GH
 
+<img width="800" alt="phone stand" src="assets/week2/gh -phone stand.png">
+
+I tried to figure out every step in the sample file, took screenshots of them and made the images into a flowchart. I think it is clear for me to understand how it works.
+
+2.play with the sample file
+
+Mon.
+
+<img width="800" alt="2" src="assets/week2/21.png">
+
+I tried to want to show all the invisible forms to figure out how the final shape was formed. (There are also some images about this in diagram)
+
+<img width="800" alt="1" src="assets/week2/1.png">
+
+<img width="800" alt="3" src="assets/week2/3.png">
+
+After trying to adjust all the sliders, I tried changing the shape of the base for the first time. But unfortunately this time it failed because the cylindrical shape is just a surface not a solid.
+
+Thu.
+
+<img width="800" alt="4" src="assets/week2/4.png">
+
+This time I decided to change the base to a cube. It didn't look very successful at first though.
+
+<img width="800" alt="5" src="assets/week2/5.png">
+
+Then I realized that it was the cutting tool that was so big that it was cutting almost all of the cube off, so I adjusted some parameters.
+
+<img width="800" alt="6" src="assets/week2/6.png">
+
+The center of gravity and assembly didn't look too good, so I adjusted the position of the base, and the size of the cut out section.
+
+<img width="800" alt="7" src="assets/week2/7.png">
+
+<img width="800" alt="8" src="assets/week2/8.png">
+
+Finally green. But I didn't like the idea of a round hole in the center in the middle of a cube, so I changed it to a square.
+
+<img width="800" alt="" src="assets/week2/9.png">
+
+Looks good. And I baked it.
+
+3.3D Printing.
+
+I tried 3D printing this week. The first attempt wasn't very successful, and Cody threw it in the trash.
+
+<img width="800" alt="" src="assets/week2/heart1.jpg">
+
+But neither of us were quite sure what the problem was, so Cody helped me print it on a different machine.
+
+<img width="800" alt="" src="assets/week2/heart2.jpg">
+
+And it worked. Many thanks to Cody.
 
 ---
 
