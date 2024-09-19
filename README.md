@@ -36,9 +36,11 @@ At first, I wanted to create two surfaces (inner and outer surfaces) and then me
 
 Then I tried to make a ring first. And it worked.
 
+Since rings come in different sizes, I want users to be able to adjust the size, height, and thickness of the ring using these sliders.
+
 <img width="800" alt="phone stand" src="assets/week3/6.png">
 
-Since rings come in different sizes, I want users to be able to adjust the size, height, and thickness of the ring using these sliders.
+Then I created another cylinder and used population geometry to randomly generate points on the surface. I can also control the number of these points. Then I generated spheres based on these points and adjust the sizes of these spheres and make sure they look good. 
 
 <img width="800" alt="phone stand" src="assets/week3/2.png">
 
@@ -48,11 +50,11 @@ Since rings come in different sizes, I want users to be able to adjust the size,
 
 <img width="800" alt="phone stand" src="assets/week3/5.png">
 
-Then I created another cylinder and used population geometry to randomly generate points on the surface. I can also control the number of these points. Then I generated spheres based on these points and adjust the sizes of these spheres and make sure they look good. 
+And also The reason why I did not use the outer surface of the ring to generate these points is because the spheres use the points as centers, so the texture will be too deep in that case. I also connected the thickness parameters, the radius of the points surface and the size of the spheres to make sure the ring is at least 1 millimeter thick.
 
 <img width="800" alt="phone stand" src="assets/week3/11.png">
 
-And also The reason why I did not use the outer surface of the ring to generate these points is because the spheres use the points as centers, so the texture will be too deep in that case. I also connected the thickness parameters, the radius of the points surface and the size of the spheres to make sure the ring is at least 1 millimeter thick.
+Then I merged these spheres into a solid and used it as a tool to cut the ring. 
 
 <img width="800" alt="phone stand" src="assets/week3/8.png">
 
@@ -60,7 +62,7 @@ And also The reason why I did not use the outer surface of the ring to generate 
 
 <img width="800" alt="phone stand" src="assets/week3/14.png">
 
-Then I merged these spheres into a solid and used it as a tool to cut the ring. Then here is the pattern. 
+Then here is the pattern. 
 
 <img width="800" alt="phone stand" src="assets/week3/18.png">
 
