@@ -15,9 +15,76 @@ Welcome to Hongxi Pan's workspace!
 
 This week:
 
-### 1. work on project 1 ###
+### 1. work on project 1: Gh ###
 
-<img width="800" alt="phone stand" src="assets/week2/gh -phone stand.png">
+video link: https://youtu.be/iMBRTu1CeQQ
+
+I decided to challenge myself to axolotl level and start a GH project myself. I've always had a passion for jewellery design and I want to do it this time.
+
+I found this very nice ring with hammered pattern on its surface. So I decided to make one myself. I did a little research on how these beautiful hammered patterns are created. They are hammered by these metal sticks with round balls on the end. When they are hammered, they create a recessed texture on the surface of the ring.
+
+<img width="400" alt="phone stand" src="assets/week3/11.jpg">
+<img width="400" alt="phone stand" src="assets/week3/22.jpg">
+
+So my making process is clear now. First I create a cylinder, then I make it into a solid ring. I can also create some spheres around it and use Boolean to subtract their overlap with the ring.
+
+<img width="800" alt="phone stand" src="assets/week3/19.png">
+
+At first, I wanted to create two surfaces (inner and outer surfaces) and then merged them togeter into a solid. But I failed. I could not cap it.
+
+<img width="800" alt="phone stand" src="assets/week3/10.png">
+
+Then I tried to make a ring first. And it worked.
+
+<img width="800" alt="phone stand" src="assets/week3/2.png">
+
+Since rings come in different sizes, I want users to be able to adjust the size, height, and thickness of the ring using these sliders.
+
+<img width="800" alt="phone stand" src="assets/week3/3.png">
+
+<img width="800" alt="phone stand" src="assets/week3/4.png">
+
+<img width="800" alt="phone stand" src="assets/week3/5.png">
+
+Then I created another cylinder and used population geometry to randomly generate points on the surface. I can also control the number of these points. Then I generated spheres based on these points and adjust the sizes of these spheres and make sure they look good. 
+
+<img width="800" alt="phone stand" src="assets/week3/11.png">
+
+And also The reason why I did not use the outer surface of the ring to generate these points is because the spheres use the points as centers, so the texture will be too deep in that case. I also connected the thickness parameters, the radius of the points surface and the size of the spheres to make sure the ring is at least 1 millimeter thick.
+
+<img width="800" alt="phone stand" src="assets/week3/8.png">
+
+<img width="800" alt="phone stand" src="assets/week3/9.png">
+
+<img width="800" alt="phone stand" src="assets/week3/14.png">
+
+Then I merged these spheres into a solid and used it as a tool to cut the ring. Then here is the pattern. 
+
+<img width="800" alt="phone stand" src="assets/week3/18.png">
+
+<img width="800" alt="phone stand" src="assets/week3/9181.png">
+
+Based on this process I created, I made a series of rings with different sizes, heights and textures for my friends.
+
+### 2. work on project 1: manufacturing  ###
+
+<img width="800" alt="phone stand" src="assets/week3/21.png">
+
+<img width="800" alt="phone stand" src="assets/week3/36.png">
+
+I started my manufacturing process with a single ring because I wasn't sure if the printer would be able to achieve these subtle patterns. But it worked pretty well. 
+
+<img width="800" alt="phone stand" src="assets/week3/22.png">
+
+<img width="800" alt="phone stand" src="assets/week3/36.png">
+
+Then I printed the whole series of my rings. I think it will be better to print them with metal, but this is good enough.
+
+### 3. work on project 1: reflection  ###
+
+I think one of the most interesting things about this project is that I tried to simulate handmade textures through parametric design and still keep some of their original characteristics, like the randomness of the patterns. I think this makes this project Axolotl level. 
+
+I think that using computational tools in the design process allows me to think more rationally about artifacts and gives me a deeper understanding of the logic of making.:)
 
 ---
 
