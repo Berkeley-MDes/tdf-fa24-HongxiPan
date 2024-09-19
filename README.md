@@ -62,15 +62,15 @@ Then I merged these spheres into a solid and used it as a tool to cut the ring. 
 
 <img width="800" alt="phone stand" src="assets/week3/18.png">
 
-<img width="800" alt="phone stand" src="assets/week3/9181.png">
-
 Based on this process I created, I made a series of rings with different sizes, heights and textures for my friends.
+
+<img width="800" alt="phone stand" src="assets/week3/9181.png">
 
 ### 2. work on project 1: manufacturing  ###
 
 <img width="800" alt="phone stand" src="assets/week3/21.png">
 
-<img width="800" alt="phone stand" src="assets/week3/36.png">
+<img width="800" alt="phone stand" src="assets/week3/36.jpg">
 
 I started my manufacturing process with a single ring because I wasn't sure if the printer would be able to achieve these subtle patterns. But it worked pretty well. 
 
