@@ -36,9 +36,11 @@ At first, I wanted to create two surfaces (inner and outer surfaces) and then me
 
 Then I tried to make a ring first. And it worked.
 
-<img width="800" alt="phone stand" src="assets/week3/2.png">
+<img width="800" alt="phone stand" src="assets/week3/6.png">
 
 Since rings come in different sizes, I want users to be able to adjust the size, height, and thickness of the ring using these sliders.
+
+<img width="800" alt="phone stand" src="assets/week3/2.png">
 
 <img width="800" alt="phone stand" src="assets/week3/3.png">
 
