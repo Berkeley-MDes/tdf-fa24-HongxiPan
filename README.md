@@ -70,19 +70,21 @@ Based on this process I created, I made a series of rings with different sizes, 
 
 <img width="800" alt="phone stand" src="assets/week3/9181.png">
 
+
 ### 2. work on project 1: manufacturing  ###
+
+I started my manufacturing process with a single ring because I wasn't sure if the printer would be able to achieve these subtle patterns. But it worked pretty well. 
 
 <img width="800" alt="phone stand" src="assets/week3/21.png">
 
-<img width="800" alt="phone stand" src="assets/week3/36.jpg">
-
-I started my manufacturing process with a single ring because I wasn't sure if the printer would be able to achieve these subtle patterns. But it worked pretty well. 
+Then I printed the whole series of my rings. 
 
 <img width="800" alt="phone stand" src="assets/week3/22.png">
 
 <img width="800" alt="phone stand" src="assets/week3/36.png">
 
-Then I printed the whole series of my rings. I think it will be better to print them with metal, but this is good enough.
+I think it will be better to print them with metal, but this is good enough.
+
 
 ### 3. work on project 1: reflection  ###
 
