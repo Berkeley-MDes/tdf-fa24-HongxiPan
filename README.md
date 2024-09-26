@@ -23,6 +23,8 @@ This week:
 
 In this diagram, I list the interaction ecology of the output stage of the product design I'm working on, where the black text represents the function and action, and the grey represents the information being transported.
 
+Throughout the process, my touchpoints are my laptop and iPad, processing and transferring information through web and desktop tools, and finally materialising the product through 3D printing.
+
 ---
 
 # Week 3 #
