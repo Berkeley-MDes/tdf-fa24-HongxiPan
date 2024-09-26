@@ -2,11 +2,26 @@
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
+[week 4](README.md#week-4)
+
 [week 3](README.md#week-3)
 
 [week 2](README.md#week-2)
 
 [week 1](README.md#week-1)
+
+---
+
+# Week 4 #
+## Week of 09/26/2024
+
+This week:
+
+### Interaction Ecosystems ###
+
+<img width="800" alt="" src="assets/week4/1.jpg">
+
+In this diagram, I list the interaction ecology of the output stage of the product design I'm working on, where the black text represents the function and action, and the grey represents the information being transported.
 
 ---
 
