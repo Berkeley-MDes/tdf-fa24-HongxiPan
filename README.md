@@ -17,9 +17,9 @@ Welcome to Hongxi Pan's workspace!
 
 This week:
 
-### Interaction Ecosystems ###
+### 1.Interaction Ecosystems ###
 
-<img width="800" alt="" src="assets/week4/1.jpg">
+<img width="850" alt="" src="assets/week4/1.jpg">
 
 In this diagram, I list the interaction ecology of the output stage of the product design I'm working on, where the black text represents the function and action, and the grey represents the information being transported.
 
