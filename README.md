@@ -2,6 +2,8 @@
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
+[week 5](README.md#week-5)
+
 [week 4](README.md#week-4)
 
 [week 3](README.md#week-3)
@@ -9,6 +11,60 @@ Welcome to Hongxi Pan's workspace!
 [week 2](README.md#week-2)
 
 [week 1](README.md#week-1)
+
+---
+
+# Week 5 #
+## Week of 10/03/2024
+
+This week:
+
+### Monday - testing ###
+
+<img width="850" alt="" src="assets/week5/1.png">
+
+I struggled with how to compile my file the whole weekend, it usually took more than an hour and then I had to kill it. I tried several times but it not worked.
+
+Then with the help from Upasana, I opedned this:
+
+<img width="850" alt="" src="assets/week5/6.png">
+
+And then I could see every steps it took and the process took halp an hour. Then finally:
+
+<img width="850" alt="" src="assets/week5/7.png">
+
+<img width="850" alt="" src="assets/week5/2.png">
+
+<img width="850" alt="" src="assets/week5/3.png">
+
+The first two file worked well, so I decided to try the blinking one.
+The compiling and flashing process were successful, and I connected the circuits, it was not working:
+
+<img width="850" alt="" src="assets/week5/8.jpg">
+
+So I checked the circuits, I realized the botton was not connected in the rcircuit. I fixed that, it still not worked.
+
+Then I looked into the code, and I saw that:
+
+<img width="850" alt="" src="assets/week5/4.png">
+
+<img width="850" alt="" src="assets/week5/9.jpg">
+
+Then I realized maybe I connected the wrong pin, so I fixed that.
+
+And it started to blink and I thought the button was not working. That really confused me a lot. 
+
+<img width="850" alt="" src="assets/week5/1.mp4">
+
+
+
+
+
+
+
+
+
+
 
 ---
 
