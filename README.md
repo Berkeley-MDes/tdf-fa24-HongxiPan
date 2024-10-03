@@ -88,7 +88,8 @@ It showed bash, so that meant my code had error. I tried modify th code several 
 
 <img width="600" alt="" src="assets/week5/5.gif">
 
-It turned out that it was because the best value I could reach was 3000, which means that I could never see aqua if I stuck on the original setting. So this could be fix easily, I just needed to change the value range of each color and made them under 3000, then I have all the colors.
+It turned out that it was because the best value I could reach was 3000, which means that I could never see aqua if I stuck on the original setting. So this could be fix easily, I just needed to change the value range of each color and made them under 3000, then I have all the colors. Or maybe I can change a different resistor:)
+
 
 
 
