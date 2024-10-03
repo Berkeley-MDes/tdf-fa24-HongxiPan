@@ -90,7 +90,9 @@ It showed bash, so that meant my code had error. I tried modify th code several 
 
 It turned out that it was because the best value I could reach was 3000, which means that I could never see aqua if I stuck on the original setting. So this could be fix easily, I just needed to change the value range of each color and made them under 3000, then I have all the colors. Or maybe I can change a different resistor:)
 
+I think what's different about these new projects is that the value they enter changes from yes and no (0 or 1) to a variable value. And these values can represent any of the variables in the entire ecosystem, for example, it can be the number of the pictures that I pinned in Pinterest just now and it can indicate my level of creativity; or it can present the the humidity of air and then use AI to provide a prediction of when I should water my plants. 
 
+Take the creativity ecosystem I demonstrated last week as an example, I think machine learning can really help with the prediction of my creativity status. Like the Pintrest
 
 
 
