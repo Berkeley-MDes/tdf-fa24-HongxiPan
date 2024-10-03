@@ -25,7 +25,7 @@ This week:
 
 I struggled with how to compile my file the whole weekend, it usually took more than an hour and then I had to kill it. I tried several times but it not worked.
 
-Then with the help from Upasana, I opedned this:
+Then with the help from Upasana, I opened this:
 
 <img width="850" alt="" src="assets/week5/6.png">
 
