@@ -54,7 +54,7 @@ Then I realized maybe I connected the wrong pin, so I fixed that.
 
 And it started to blink and I thought the button was not working. That really confused me a lot. 
 
-<img width="500" alt="" src="assets/2.gif"> <img width="500" alt="" src="assets/3.gif">
+<img width="400" alt="" src="assets/2.gif"> <img width="400" alt="" src="assets/3.gif">
 
 ### Thursday - testing ###
 
