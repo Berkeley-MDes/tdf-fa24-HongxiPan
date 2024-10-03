@@ -60,33 +60,33 @@ And it started to blink and I thought the button was not working. That really co
 
 1.I tried the LED color one, I tried to compiled the code:
 
-<img width="800" alt="" src="assets/week5/10.png">
+<img width="850" alt="" src="assets/week5/10.png">
 
 But some thing went wrong and the code couldn't work. Then I decided to ask chatGPT:
 
-<img width="800" alt="" src="assets/week5/12.png">
+<img width="850" alt="" src="assets/week5/12.png">
 
 Then I tried to changed the position of some lines of code, it worked:
 
-<img width="800" alt="" src="assets/week5/11.png">
+<img width="850" alt="" src="assets/week5/11.png">
 
-<img width="800" alt="" src="assets/week5/3.gif">
+<img width="850" alt="" src="assets/week5/3.gif">
 
 But then I realized that I could never reach Aqua (which is my favorite color), Red was the best I can do, so I decided to look a little bit more into what was wrong.
 
 First I wanted to see if the led could not show aqua, so I changed the setting red into aqua and see if it worked.
 
-<img width="800" alt="" src="assets/week5/15.png">
+<img width="850" alt="" src="assets/week5/15.png">
 
-<img width="800" alt="" src="assets/week5/4.gif">
+<img width="850" alt="" src="assets/week5/4.gif">
 
 The led could show aqua. Then I thought since the aqua was the last stage, maybe the value couldn't reach that high, so I added the function to monitor the value of the sensor.
 
-<img width="800" alt="" src="assets/week5/16.png">
+<img width="850" alt="" src="assets/week5/16.png">
 
 It showed bash, so that meant my code had error. I tried modify th code several times, then it worked, which meant I can see the real time value of the sensor in the serial monitor(refresh each second).
 
-<img width="800" alt="" src="assets/week5/5.gif">
+<img width="850" alt="" src="assets/week5/5.gif">
 
 It turned out that it was because the best value I could reach was 3000, which means that I could never see aqua if I stuck on the original setting. So this could be fix easily, I just needed to change the value range of each color and made them under 3000, then I have all the colors. Or maybe I can change a different resistor:)
 
