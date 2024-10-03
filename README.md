@@ -92,7 +92,7 @@ It turned out that it was because the best value I could reach was 3000, which m
 
 I think what's different about these new projects is that the value they enter changes from yes and no (0 or 1) to a variable value. And these values can represent any of the variables in the entire ecosystem, for example, it can be the number of the pictures that I pinned in Pinterest just now and it can indicate my level of creativity; or it can present the the humidity of air and then use AI to provide a prediction of when I should water my plants. 
 
-Take the creativity ecosystem I demonstrated last week as an example, I think machine learning can really help with the prediction of my creativity status. Like the Pintrest
+Take the creativity ecosystem I demonstrated last week as an example, I think machine learning can really help with the prediction of my creativity status. Like the Pintrest using machine learning to make sure I am surrounded by the images I like, I am wondering if it possible for it to break the information cocoon and provide something new that I never noticed before? I think it is going to be very helpful to add this part into my creativity process.
 
 
 
