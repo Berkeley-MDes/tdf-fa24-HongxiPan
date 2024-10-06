@@ -43,7 +43,7 @@ Then I opened the serial monitor, and I could see the value of the sensor:
 
 <img width="850" alt="" src="assets/week6/4.png">
 
-But it was so fast that I could not follow it :( It took really long time to compile (more than 30 mins), so I looked a little bit into some interesting application of this sensor, I saw some really fun staff like this, but I think they used Arduino or other kind of boards. There is no reference for Fhoton :(
+But it was so fast that I could not follow it :( It took really long time to compile (more than 30 mins), so I looked a little bit into some interesting application of this sensor, I saw some really fun staff like this, but I think they used Arduino or other kind of boards. There is no reference for Fhoton :( So I am still trying and want to see what I can do with it.
 
 <img width="850" alt="" src="assets/week6/2.gif">
 
