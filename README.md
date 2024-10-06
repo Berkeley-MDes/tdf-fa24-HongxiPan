@@ -2,6 +2,8 @@
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
+[week 6](README.md#week-6)
+
 [week 5](README.md#week-5)
 
 [week 4](README.md#week-4)
@@ -11,6 +13,39 @@ Welcome to Hongxi Pan's workspace!
 [week 2](README.md#week-2)
 
 [week 1](README.md#week-1)
+
+---
+
+# Week 6 #
+## Week of 10/10/2024
+
+This week:
+
+### stemma 1 - MPU6050 ###
+
+I tried out the MPU6050 sensor, I used the sample file but There are lots of problems:
+
+<img width="850" alt="" src="assets/week6/1.png">
+
+But it still worked, I could compile it and flash it:
+
+<img width="850" alt="" src="assets/week6/2.png">
+
+I tried to make the circuit based on the code given, I saw there was a led in this circuit, but I could not know what it did, so I asked ChatGPT and it told me that it was for indicating the status of the sensor:
+
+<img width="850" alt="" src="assets/week6/5.png">
+
+Then I opened the serial monitor, and I could see the value of the sensor:
+
+<img width="850" alt="" src="assets/week6/1.gif">
+
+<img width="850" alt="" src="assets/week6/3.png">
+
+<img width="850" alt="" src="assets/week6/4.png">
+
+But it was so fast that I could not follow it :( It took really long time to compile (more than 30 mins), so I looked a little bit into some interesting application of this sensor, I saw some really fun staff like this, but I think they used Arduino or other kind of boards. There is no reference for Fhoton :(
+
+<img width="850" alt="" src="assets/week6/2.gif">
 
 ---
 
@@ -42,7 +77,7 @@ The compiling and flashing process were successful, and I connected the circuits
 
 <img width="850" alt="" src="assets/week5/8.jpg">
 
-So I checked the circuits, I realized the botton was not connected in the rcircuit. I fixed that, it still not worked.
+So I checked the circuits, I realized the botton was not connected in the circuit. I fixed that, it still not worked.
 
 Then I looked into the code, and I saw that:
 
