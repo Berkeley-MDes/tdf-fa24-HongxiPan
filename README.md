@@ -33,7 +33,7 @@ But it still worked, I could compile it and flash it:
 
 I tried to make the circuit based on the code given, I saw there was a led in this circuit, but I could not know what it did, so I asked ChatGPT and it told me that it was for indicating the status of the sensor:
 
-<img width="850" alt="" src="assets/week6/5.png">
+### stemma 1 - MPU6050 ###
 
 Then I opened the serial monitor, and I could see the value of the sensor:
 
@@ -46,6 +46,22 @@ Then I opened the serial monitor, and I could see the value of the sensor:
 But it was so fast that I could not follow it :( It took really long time to compile (more than 30 mins), so I looked a little bit into some interesting application of this sensor, I saw some really fun staff like this, but I think they used Arduino or other kind of boards. There is no reference for Fhoton :( So I am still trying and want to see what I can do with it.
 
 <img width="850" alt="" src="assets/week6/2.gif">
+
+### stemma 2 - APDS-9960 ###
+
+I tried the second one, which had a lot of problems but still worked:
+
+<img width="850" alt="" src="assets/week6/6.png">
+
+Also, I saw a tutorial about this sensor: https://www.adafruit.com/product/3595, and here is a example using the color sensor:
+
+<img width="850" alt="" src="assets/week6/7.png">
+
+<img width="850" alt="" src="assets/week6/8.png">
+
+My board worked perfectly, and you can see the value changed with different color:
+
+<img width="850" alt="" src="assets/week6/3.gif">
 
 ---
 
