@@ -23,7 +23,7 @@ This week:
 
 ### stemma 1 - MPU6050 ###
 
-I tried out the MPU6050 sensor, I used the sample file but There are lots of problems:
+I tried out the MPU6050 sensor, I used the sample file but there are lots of problems:
 
 <img width="850" alt="" src="assets/week6/1.png">
 
