@@ -63,6 +63,16 @@ My board worked perfectly, and you can see the value changed with different colo
 
 <img width="850" alt="" src="assets/week6/3.gif">
 
+I just realized that I didn't delete the code that detects proximity, so I can see both values in serial monitor.
+
+### 2 - project 2 proposal ###
+
+Our group is cooperating with Nora and Selena's group, so we discussed a system like this (There are more details in that proposal and I am pretty sure whoever is reading this report has the access to that):
+
+<img width="850" alt="" src="assets/week6/9.png">
+
+To be honest, I really hope we can do bigger projects with TDF in this semester. My classmates in this cohort are from various backgrounds and I am quite sure that they are super smart people and are very professional in their own field. But I think the way we work together now doesn't bring out the best in us, and I feel really bad about that.
+
 ---
 
 # Week 5 #
