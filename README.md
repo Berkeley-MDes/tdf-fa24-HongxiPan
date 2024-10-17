@@ -2,6 +2,8 @@
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
+[week 7](README.md#week-7)
+
 [week 6](README.md#week-6)
 
 [week 5](README.md#week-5)
@@ -13,6 +15,40 @@ Welcome to Hongxi Pan's workspace!
 [week 2](README.md#week-2)
 
 [week 1](README.md#week-1)
+
+---
+
+# Week 7 #
+## Week of 10/17/2024
+
+This week:
+
+### photo cell - CdS ###
+
+<img width="850" alt="" src="assets/week7/1.jpg">
+
+So, this is our part of the diagram for the whole system. 
+What we are trying to do is: open the book, and it will send the message to particle cloud, which can be received by Nora(other team)'s Photon. The led will be used for debuging. 
+
+I found two sensor maybe useful in our box, one is the cds, and the other is the HC-SR04(I don't konw it's name, but I call it distant sensor). Since the HC-SR04 can be influenced easily by the movement of the user, so I decided to try the CdS first.
+
+After several attempts, I found that it is not easy to make everything just right:
+
+### 1. my computer: ### 
+It runs really slow in vsCode and I don't know why. It took me a lot of time compiling those codes, which means it took me more time to debug:(
+
+### solution: ### 
+There is no solution. I have to live with it.
+
+### 2. relative value: ### 
+I know the sensor reads the relative values of environmental testing, but it is not stable at all. Since there is an error in each reading, it is not possible to use the absolute value of the change to make judgments.
+### solution: ### 
+I used a threshold to make sure when the light changes greatly, the led lights up and sends a message. But it took a lot of experiments.
+
+### 3. the threshold: ### 
+I had to calculate the threshold every time due to the change of multiple factors: environment, led status and the interaction with the physical book.
+### solution: ### 
+I tried to 
 
 ---
 
