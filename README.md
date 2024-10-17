@@ -68,7 +68,9 @@ I had to calculate the threshold every time due to the change of multiple factor
 ### solution: ### 
 I tried to add a hysteresis to prevent the LEDs from switching on and off frequently If the light changes above a certain threshold (positive increase or negative decrease), it will change the LED state. This prevents frequent flickering of the LED due to small light changes. But I am still working on this one.
 
-<img width="400" alt="" src="assets/week7/4.png"> <img width="400" alt="" src="assets/week7/g1.gif">
+<img width="400" alt="" src="assets/week7/4.png">
+
+<img width="400" alt="" src="assets/week7/g1.gif">
 
 Here is the code for now, just for record:
 
