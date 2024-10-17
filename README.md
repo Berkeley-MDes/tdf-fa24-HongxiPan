@@ -32,7 +32,9 @@ What we are trying to do is: open the book, and it will send the message to part
 
 I found two sensor maybe useful in our box, one is the cds, and the other is the HC-SR04(I don't konw it's name, but I call it distant sensor). Since the HC-SR04 can be influenced easily by the movement of the user, so I decided to try the CdS first.
 
-After several attempts, I found that it is not easy to make everything just right:
+After several attempts, I found that it was not easy to make everything just right:
+
+<img width="850" alt="" src="assets/week7/2.png">
 
 ### 1. my computer: ### 
 It runs really slow in vsCode and I don't know why. It took me a lot of time compiling those codes, which means it took me more time to debug:(
@@ -42,13 +44,78 @@ There is no solution. I have to live with it.
 
 ### 2. relative value: ### 
 I know the sensor reads the relative values of environmental testing, but it is not stable at all. Since there is an error in each reading, it is not possible to use the absolute value of the change to make judgments.
-### solution: ### 
-I used a threshold to make sure when the light changes greatly, the led lights up and sends a message. But it took a lot of experiments.
 
-### 3. the threshold: ### 
-I had to calculate the threshold every time due to the change of multiple factors: environment, led status and the interaction with the physical book.
+<img width="850" alt="" src="assets/week7/7.png">
+
 ### solution: ### 
-I tried to 
+I used a threshold to make sure when the light changes greatly, the led lights up and sends a message. But it took a lot of experiments. And also, I added a resistor, trying to make it more stable.
+
+<img width="850" alt="" src="assets/week7/9.jpg">
+<img width="850" alt="" src="assets/week7/3.png">
+
+
+### 3. Frequent messages: ### 
+In the experiment, since the status of led was always detected as on after the book was opened, messages would be sent to cloud frequently, which means that requests to call the API would be sent frequently, leading to message stacking.
+
+<img width="400" alt="" src="assets/week7/4.png"> <img width="400" alt="" src="assets/week7/5.png">
+
+### solution: ### 
+I want to keep this on/off after detection until the huge light change happens again. Therefore, the code needs to continuously detect changes in the environment (since I can't predict the interval time between two activities of the user is, I can't use delay to maintain the state).
+
+### 4. the threshold: ### 
+I had to calculate the threshold every time due to the change of multiple factors: environment, led status and the interaction with the physical book, which made the led blinking all the time.
+
+### solution: ### 
+I tried to add a hysteresis to prevent the LEDs from switching on and off frequently If the light changes above a certain threshold (positive increase or negative decrease), it will change the LED state. This prevents frequent flickering of the LED due to small light changes. But I am still working on this one.
+
+<img width="400" alt="" src="assets/week7/4.png"> <img width="400" alt="" src="assets/week7/g1.gif">
+
+Here is the code for now, just for record:
+
+#include "Particle.h"
+
+int ledPin = D7; 
+int photoResistorPin = A0; 
+int threshold = 300;   // Define a fixed threshold for light change
+bool ledState = false;   // Track the current LED state
+int lightLevelNew, lightLevelOld;
+
+void setup() {
+    pinMode(ledPin, OUTPUT);
+    Serial.begin(9600);
+    while (!Serial) {}
+    
+    // Initialize the first light level reading
+    lightLevelOld = analogRead(photoResistorPin);
+}
+
+void loop() {
+    lightLevelOld = lightLevelNew;
+    lightLevelNew = analogRead(photoResistorPin);  // Read the current light level
+    
+    Serial.print("Current Light Level: ");
+    Serial.println(lightLevelNew);
+    
+    // Check if the light level has increased significantly (by the threshold) and LED is off
+    if (lightLevelNew > lightLevelOld + threshold && !ledState) {
+        digitalWrite(ledPin, HIGH);  // Turn LED on
+        ledState = true;  // Update the LED state
+        Serial.println("LED is ON");
+        Particle.publish("LED Status", "open", PRIVATE);
+    } 
+    // Check if the light level has decreased significantly and LED is on
+    else if (lightLevelNew < lightLevelOld - threshold && ledState) {
+        digitalWrite(ledPin, LOW);  // Turn LED off
+        ledState = false;  // Update the LED state
+        Serial.println("LED is OFF");
+        Particle.publish("LED Status", "close", PRIVATE);
+    }
+
+    // Update the old light level to the new one for the next loop
+    lightLevelOld = lightLevelNew;
+
+    delay(1000);  // Wait 1 second before the next reading
+}
 
 ---
 
