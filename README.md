@@ -74,7 +74,8 @@ I tried to add a hysteresis to prevent the LEDs from switching on and off freque
 
 Here is the code for now, just for record:
 
-```#include "Particle.h"
+```C++
+#include "Particle.h"
 
 int ledPin = D7; 
 int photoResistorPin = A0; 
@@ -117,7 +118,7 @@ void loop() {
     lightLevelOld = lightLevelNew;
 
     delay(1000);  // Wait 1 second before the next reading
-}
+}```
 
 ---
 
