@@ -118,7 +118,8 @@ void loop() {
     lightLevelOld = lightLevelNew;
 
     delay(1000);  // Wait 1 second before the next reading
-}```
+}
+```
 
 ---
 
