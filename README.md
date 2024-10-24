@@ -2,6 +2,8 @@
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
+[week 8](README.md#week-8)
+
 [week 7](README.md#week-7)
 
 [week 6](README.md#week-6)
@@ -15,6 +17,127 @@ Welcome to Hongxi Pan's workspace!
 [week 2](README.md#week-2)
 
 [week 1](README.md#week-1)
+
+---
+
+# Week 8 #
+## Week of 10/24/2024
+
+This week:
+
+### Video ###
+
+https://youtu.be/62e6_m3k8bE?feature=shared
+
+### Merge the circut ###
+
+I put two sensor circuits(photo cell and dial) together, linked them to a same photon, and drew a circuits diagram here.
+
+<img width="850" alt="" src="assets/week8/1.png">
+
+Also, the code I wrote before only sent 1 and 0 (yes or no)to the particle cloud, so I had to add question types into this system. The logic is: the user opens the book, chooses a question type, then closes the book and think about the question, open the book, and get a answer. So what my code is doing right now is to mark the question types as strings(1,2,3), and the certain string will be sent whenever the book is detected open. Here is the modified code (just for record as well):
+
+```C++
+#include "Particle.h"
+
+int ledPin = D7; 
+int photoResistorPin = A0; 
+int potentiometerPin = A2;   
+int yellowLEDPin = D0;         
+int greenLEDPin = D1;         
+int blueLEDPin = D2;
+
+int threshold = 200;   
+int lightLevelNew, lightLevelOld;
+
+int threshold1 = 1365;  // Potentiometer value
+int threshold2 = 2730;
+
+int type = 0; // type 0 is closed, type 123 are question types   
+int potentiometerValue;
+
+void setup() {
+    pinMode(ledPin, OUTPUT);
+    Serial.begin(9600);
+    while (!Serial) {}
+
+    // Initialize the first light level reading
+    lightLevelOld = analogRead(photoResistorPin);
+    //Particle.subscribe("0a10aced202194944a05a510/Received");
+
+    pinMode(yellowLEDPin, OUTPUT);
+    pinMode(greenLEDPin, OUTPUT);
+    pinMode(blueLEDPin, OUTPUT);
+
+    // Set up potentiometer
+    digitalWrite(yellowLEDPin, LOW);
+    digitalWrite(greenLEDPin, LOW);
+    digitalWrite(blueLEDPin, LOW);
+    
+}
+
+void loop() {
+    
+    lightLevelOld = lightLevelNew;
+
+    // potentiometerPin
+    
+    potentiometerValue = analogRead(potentiometerPin);
+
+    if (0 < potentiometerValue && potentiometerValue < threshold1) {
+        
+        digitalWrite(greenLEDPin, LOW);
+        digitalWrite(yellowLEDPin, HIGH);
+        digitalWrite(blueLEDPin, HIGH);
+        type = 1;
+    
+    } 
+    else if (threshold1 < potentiometerValue && potentiometerValue < threshold2) {
+        
+        digitalWrite(greenLEDPin, HIGH);
+        digitalWrite(yellowLEDPin, LOW);
+        digitalWrite(blueLEDPin, HIGH);
+        type = 2;
+        
+    } 
+    else {
+       
+        digitalWrite(yellowLEDPin, HIGH);
+        digitalWrite(greenLEDPin, HIGH);
+        digitalWrite(blueLEDPin, LOW);
+        type = 3;
+        
+     } 
+
+    Serial.println(potentiometerValue);
+
+     // light sensor
+    lightLevelOld = lightLevelNew;
+    lightLevelNew = analogRead(photoResistorPin);  // Read the current light level
+   
+    Serial.print("Current Light Level: ");
+    Serial.println(lightLevelNew);
+    
+    if (lightLevelNew > lightLevelOld + threshold) {
+        digitalWrite(ledPin, LOW);  
+
+        if(type == 1 || type == 2 || type == 3){
+            Particle.publish("Question type", String(type), PUBLIC);
+            Serial.println(String(type));
+        } 
+    }
+
+     else if (lightLevelNew < lightLevelOld - threshold ) {
+        digitalWrite(ledPin, HIGH);  // Turn LED off
+
+        Serial.println("LED is OFF");
+        type = 0;
+       
+    }
+   
+    delay(1000);
+}
+```
 
 ---
 
