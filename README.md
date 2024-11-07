@@ -2,6 +2,8 @@
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
+[week 10](README.md#week-10)
+
 [week 9](README.md#week-9)
 
 [week 8](README.md#week-8)
@@ -21,6 +23,11 @@ Welcome to Hongxi Pan's workspace!
 [week 1](README.md#week-1)
 
 ---
+
+# Week 10 #
+## Week of 11/07/2024
+
+
 
 # Week 9 #
 ## Week of 10/31/2024
