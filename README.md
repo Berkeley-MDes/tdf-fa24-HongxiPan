@@ -2,6 +2,8 @@
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
+[week 11](README.md#week-11)
+
 [week 10](README.md#week-10)
 
 [week 9](README.md#week-9)
@@ -24,6 +26,21 @@ Welcome to Hongxi Pan's workspace!
 
 ---
 
+# Week 11 #
+## Week of 11/14/2024
+
+This week:
+
+### Report ###
+
+This week I was focusing on my final report for project 3.
+
+<img width="850" alt="" src="assets/week11/1.png">
+
+
+
+---
+
 # Week 10 #
 ## Week of 11/07/2024
 
@@ -37,6 +54,18 @@ This week I was focusing on my video for project 3.
 
 <img width="850" alt="" src="assets/week10/1.png">
 
+This is basically what I did for my project. I used DALL-E to generate a image based on the prompt, and then use GPT-4 to do the identification and summarize them into key words. The key words are used as prompt for the third AI Gemini to generate a poem based on that. The knowledge base is used to decide the style of the poem.
+
+### Speculations ###
+
+In the experiment I found that:
+
+the closer I want to get this agent to me, the more data I need. Also, the more relevant the data is to the questions asked by others, the more accurate the answers will be, which means, I need to provide as much relevant information as possible. 
+for generative tasks (e.g., digital poet), the more data available, the closer the results will be to the desired outcome.
+
+So in designing the system, I provided the models with as much relevant data as possible and divided them into reasonably sized chunks. At the same time, I provided them with precise instructions so that they could locate relevant information quickly.
+
+---
 
 # Week 9 #
 ## Week of 10/31/2024
