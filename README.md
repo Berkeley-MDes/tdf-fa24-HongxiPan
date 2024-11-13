@@ -27,6 +27,15 @@ Welcome to Hongxi Pan's workspace!
 # Week 10 #
 ## Week of 11/07/2024
 
+This week:
+
+### Video ###
+
+video: https://youtu.be/jT_1DnRSrqk
+
+This week I was focusing on my video for project 3.
+
+<img width="850" alt="" src="assets/week10/1.png">
 
 
 # Week 9 #
