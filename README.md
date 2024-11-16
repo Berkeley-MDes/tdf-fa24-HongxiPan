@@ -383,8 +383,6 @@ Our group is cooperating with Nora and Selena's group, so we discussed a system 
 
 <img width="850" alt="" src="assets/week6/9.png">
 
-To be honest, I really hope we can do bigger projects with TDF in this semester. My classmates in this cohort are from various backgrounds and I am quite sure that they are super smart people and are very professional in their own field. But I think the way we work together now doesn't bring out the best in us, and I feel really bad about that.
-
 ---
 
 # Week 5 #
