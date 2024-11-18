@@ -37,7 +37,15 @@ This week I was focusing on my final report for project 3.
 
 <img width="850" alt="" src="assets/week11/1.png">
 
+<img width="850" alt="" src="assets/week11/2.png">
 
+<img width="850" alt="" src="assets/week11/3.png">
+
+<img width="850" alt="" src="assets/week11/4.png">
+
+<img width="850" alt="" src="assets/week11/5.png">
+
+<img width="850" alt="" src="assets/week11/6.png">
 
 ---
 
@@ -99,6 +107,10 @@ Now everything looks good, but the poem is not so...emmm...poetisch. So I made i
 But I found that it has not been able to poeticize the conflict. I think it is a very interesting topic. Also, some time the identification can be a little bit off. I think it is because my input can be a little bit brief and there is a lot of free space for the model to generate a detailed image. So maybe I can work on that a liitle bit more:)
 
 <img width="850" alt="" src="assets/week9/8.png">
+
+### Speculations ###
+
+The agent that I wanted to design as a poet would be more than just a tool for generating words. It could be seen as a reflective, conscious entity, capable of engaging with human emotions and societal issues through poetry. This agent, powered by LLMs, would not merely write based on images as a poet does, but would consider the broader context of human experiences, using poetry to evoke awareness, empathy, and introspection. Its poems could explore complex relationships between humanity and the environment, reflecting the intricacies of our impact on the world.
 
 ---
 
@@ -220,6 +232,9 @@ void loop() {
     delay(1000);
 }
 ```
+### Speculations ###
+
+I think with this project we discussed how the digital ecosystem, including microprocessors, sensors and AI can provide emotional value to people. People tend to think that AI can't empathise, so can it act as omniscient to provide that value? Perhaps it is because we are inherently distanced from the realm of the transcendent and therefore this makes the role played by AI more plausible.
 
 ---
 
@@ -326,6 +341,14 @@ void loop() {
 }
 ```
 
+### Speculations ###
+
+Cultural expectations of the Anthropogenic Environment vary widely, with some societies prioritizing harmony with nature while others emphasize economic growth. This influences how technology and digital tools are employed—either for environmental conservation or increased development. These choices shape each society’s interaction with the environment in unique ways.
+
+In engineering, cultural values impact how and what we create. However, the current social environment has spawned a lot of psychological problems as well as a focus on mental health. In this project, we try to use AI as the answer to all the problems in the world. Can AI act as a ‘omniscient’ when people are uncertain or confused? Based on probabilistic models, AI can generate countless ambiguous answers like those in the Book of Answers, which may lead people to think about what they really want.
+
+During this project, we worked closely within our group and learnt from each other, which made it very rewarding for us all. We all encountered difficulties, but more importantly, we gained problem-solving skills in the process.
+
 ---
 
 # Week 6 #
@@ -379,9 +402,13 @@ I just realized that I didn't delete the code that detects proximity, so I can s
 
 ### 2 - project 2 proposal ###
 
-Our group is cooperating with Nora and Selena's group, so we discussed a system like this (There are more details in that proposal and I am pretty sure whoever is reading this report has the access to that):
+Our group is cooperating with Nora and Selena's group, so we discussed a system like this (There are more details in the proposal:
 
 <img width="850" alt="" src="assets/week6/9.png">
+
+### Speculations ###
+
+I think with this project we are going to discusse how the digital ecosystem, including microprocessors, sensors and AI can provide emotional value to people. People tend to think that AI can't empathise, so can it act as omniscient to provide that value? Perhaps it is because we are inherently distanced from the realm of the transcendent and therefore this makes the role played by AI more plausible.
 
 ---
 
@@ -461,13 +488,11 @@ It showed bash, so that meant my code had error. I tried modify th code several 
 
 It turned out that it was because the best value I could reach was 3000, which means that I could never see aqua if I stuck on the original setting. So this could be fix easily, I just needed to change the value range of each color and made them under 3000, then I have all the colors. Or maybe I can change a different resistor:)
 
+### Speculations ###
+
 I think what's different about these new projects is that the value they enter changes from yes and no (0 or 1) to a variable value. And these values can represent any of the variables in the entire ecosystem, for example, it can be the number of the pictures that I pinned in Pinterest just now and it can indicate my level of creativity; or it can present the the humidity of air and then use AI to provide a prediction of when I should water my plants. 
 
 Take the creativity ecosystem I demonstrated last week as an example, I think machine learning can really help with the prediction of my creativity status. Like the Pintrest using machine learning to make sure I am surrounded by the images I like, I am wondering if it possible for it to break the information cocoon and provide something new that I never noticed before? I think it is going to be very helpful to add this part into my creativity process.
-
-
-
-
 
 ---
 
