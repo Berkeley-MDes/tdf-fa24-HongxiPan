@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/4bc81a75-57c3-4a2f-8bf0-6d066790964f)# Welcome to my workspace!
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
