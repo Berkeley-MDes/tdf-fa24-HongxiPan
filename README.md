@@ -2,6 +2,10 @@
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
+[week 14](README.md#week-14)
+
+[week 13](README.md#week-13)
+
 [week 12](README.md#week-12)
 
 [week 11](README.md#week-11)
@@ -28,12 +32,67 @@ Welcome to Hongxi Pan's workspace!
 
 ---
 
+# Week 14 #
+## Week of 12/05/2024
+
+This week:
+
+### Project 4 ###
+
+---
+
+
+# Week 13
+## Week of 11/28/2024
+
+This week:
+
+### Project 4 ###
+I put all the content of week 13 into week 14.
+
+---
+
 # Week 12 #
 ## Week of 11/21/2024
 
 This week:
 
 ### Project 4 ###
+#### edge impluse environment building ####
+
+In this project, we want to design a wearable product to encourage elderly to get out of their house and enjoy out door activites. It needs to be intuitive(because a lot of senior citizens are not big fans for mobile phones or they just forget them. So it would be harder to remind them to wear a smart watch everyday.) At the same time, it can provide information to the caretakers when accident happens.
+
+<img width="850" alt="" src="assets/week12/4.png">
+
+In this project, I am taking the part of ML using edge impluse. It took me the whole week to build the whole environment that enables my laptop to ship data from terminal to edge impluse. I met a lot of errors, which contain:
+
+1. visual studio c++ environment
+
+solution: install c++ environment from visual studio. The fun stuff is that I asked a lot of people to see why it could not find visual studio on my laptop and they said that it had nothing to do with visual studio. So it took me a really long time to get here.
+
+<img width="850" alt="" src="assets/week12/3.png">
+
+2. data frequency
+
+<img width="850" alt="" src="assets/week12/1.png">
+
+solution:I needed to pre-process the data to meet the frequency requirement and I did some modification on the code by /4. 
+
+<img width="850" alt="" src="assets/week12/2.png">
+
+#### Key reflections on ideas: ####
+
+1. outside-house environment:
+
+Outdoor environment are more complicated compared to indoor environment. So the traditional methods like cameras or thermography are not solutions here. We need to find another way to know exactly what the olderly person is doing with all kinds of interferences.
+
+2. data privacy
+
+We want to provide a reliable way to know what this person is doing, while keep other information private. (think about camera)
+
+3. accuracy
+
+It is hard to identify differnt activities when a person is moving. And also, unexpected movement can trigger a false alarm. So what kind of ML is the best solution and what kind of activities it need to know need to be discussed here.
 
 ---
 
