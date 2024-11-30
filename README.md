@@ -1,4 +1,4 @@
-# Welcome to my workspace!
+![image](https://github.com/user-attachments/assets/4bc81a75-57c3-4a2f-8bf0-6d066790964f)# Welcome to my workspace!
 Welcome to Hongxi Pan's workspace! 
 
 # Outline
@@ -39,6 +39,7 @@ This week:
 
 ### Project 4 ###
 
+
 ---
 
 
@@ -50,6 +51,38 @@ This week:
 ### Project 4 ###
 I put all the content of week 13 into week 14.
 
+#### ML with pressure sensor ####
+
+After setting the environment of edge impluse, I started with using pressure sensors to collect data. I did some reasearch on which points should be detected:
+
+<img width="450" alt="" src="assets/week14/1.png"> <img width="400" alt="" src="assets/week14/2.png">
+
+<img width="450" alt="" src="assets/week14/3.png"> <img width="450" alt="" src="assets/week14/4.png">
+
+（citation: https://www.researchgate.net/publication/332411925_A_Method_for_Recognizing_Postures_and_Gestures_Using_Foot_Pressure_Sensors)
+
+In this article, it is vertified that different people's walking postures and leg shapes determine the location of the most accurate monitoring points. As what we are making right now is a prototype, so we tried 3 intuitive points to test the circuit:
+
+<img width="450" alt="" src="assets/week14/1.jpg">
+
+Then I tried to use this prototype to collect data. Because of the wires, the prototype could not fit  my shoe, so I had to tape it on my sock. I know this is no where near attractive (feel so embarrassed to show my feet）, but this was the best I could do because I did it on holidays and my teammates were out of town. So:
+
+<img width="450" alt="" src="assets/week14/2.jpg"><img width="450" alt="" src="assets/week14/3.jpg">
+
+In this experiment I changed the position of the sensors a little bit(above). And I detected 3 differnt activities: walking, running and standing (10 times each). Here is the result:
+
+<img width="450" alt="" src="assets/week14/5.png">
+
+Speculation:
+
+For walking and running the data pattern is relatively stable, but for standing a slight change in the user's center of gravity can mean a huge change in value. The data in the picture is my own data, and you can see that even for the same person, the data collected twice can be very different. 
+
+I think it is because the information is too detailed. May be we don't need that much subtle information. It is the movement we want, not all the presure details of ther user. So I decided to try another sensor:
+
+ 
+
+
+
 ---
 
 # Week 12 #
@@ -58,6 +91,7 @@ I put all the content of week 13 into week 14.
 This week:
 
 ### Project 4 ###
+
 #### edge impluse environment building ####
 
 In this project, we want to design a wearable product to encourage elderly to get out of their house and enjoy out door activites. It needs to be intuitive(because a lot of senior citizens are not big fans for mobile phones or they just forget them. So it would be harder to remind them to wear a smart watch everyday.) At the same time, it can provide information to the caretakers when accident happens.
@@ -84,7 +118,7 @@ solution:I needed to pre-process the data to meet the frequency requirement and 
 
 1. outside-house environment:
 
-Outdoor environment are more complicated compared to indoor environment. So the traditional methods like cameras or thermography are not solutions here. We need to find another way to know exactly what the olderly person is doing with all kinds of interferences.
+Outdoor environments are more complicated compared to indoor environment. So the traditional methods like cameras or thermography are not solutions here. We need to find another way to know exactly what the olderly person is doing with all kinds of interferences.
 
 2. data privacy
 
