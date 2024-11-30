@@ -70,7 +70,7 @@ Then I tried to use this prototype to collect data. Because of the wires, the pr
 
 In this experiment I changed the position of the sensors a little bit(above). And I detected 3 differnt activities: walking, running and standing (10 times each). Here is the result:
 
-<img width="450" alt="" src="assets/week14/5.png">
+<img width="850" alt="" src="assets/week14/5.png">
 
 Speculation:
 
