@@ -54,9 +54,9 @@ I put all the content of week 13 into week 14.
 
 After setting the environment of edge impluse, I started with using pressure sensors to collect data. I did some reasearch on which points should be detected:
 
-<img width="450" alt="" src="assets/week14/1.png"> <img width="400" alt="" src="assets/week14/2.png">
+<img width="450" alt="" src="assets/week14/1.png"><img width="400" alt="" src="assets/week14/2.png">
 
-<img width="450" alt="" src="assets/week14/3.png"> <img width="450" alt="" src="assets/week14/4.png">
+<img width="450" alt="" src="assets/week14/3.png"><img width="450" alt="" src="assets/week14/4.png">
 
 （citation: https://www.researchgate.net/publication/332411925_A_Method_for_Recognizing_Postures_and_Gestures_Using_Foot_Pressure_Sensors)
 
