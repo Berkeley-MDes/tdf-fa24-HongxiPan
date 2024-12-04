@@ -64,7 +64,7 @@ In this article, it is vertified that different people's walking postures and le
 
 <img width="450" alt="" src="assets/week14/1.jpg">
 
-Then I tried to use this prototype to collect data. Because of the wires, the prototype could not fit  my shoe, so I had to tape it on my sock. I know this is no where near attractive (feel so embarrassed to show my feet）, but this was the best I could do because I did it on holidays and my teammates were out of town. So:
+Then I tried to use this prototype to collect data. Because of the wires, the prototype could not fit  my shoe, so I had to tape it on my sock. I feel so embarrassed to show my feet, but this was the best I could do because I did it on holidays and my teammates were out of town. So:
 
 <img width="450" alt="" src="assets/week14/2.jpg"><img width="450" alt="" src="assets/week14/3.jpg">
 
