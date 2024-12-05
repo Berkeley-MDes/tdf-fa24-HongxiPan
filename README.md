@@ -38,18 +38,6 @@ This week:
 
 ### Project 4 ###
 
-
----
-
-
-# Week 13
-## Week of 11/28/2024
-
-This week:
-
-### Project 4 ###
-I put all the content of week 13 into week 14.
-
 #### ML with pressure sensor ####
 
 After setting the environment of edge impluse, I started with using pressure sensors to collect data. I did some reasearch on which points should be detected:
@@ -78,9 +66,16 @@ For walking and running the data pattern is relatively stable, but for standing 
 
 I think it is because the information is too detailed. May be we don't need that much subtle information. It is the movement we want, not all the presure details of ther user. So I decided to try another sensor:
 
- 
 
+---
 
+# Week 13
+## Week of 11/28/2024
+
+This week:
+
+### Project 4 ###
+I put all the content of week 13 into week 14.
 
 ---
 
