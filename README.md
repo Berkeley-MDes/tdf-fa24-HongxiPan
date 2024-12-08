@@ -64,7 +64,6 @@ Speculation:
 
 For walking and running the data pattern is relatively stable, but for standing a slight change in the user's center of gravity can mean a huge change in value. The data in the picture is my own data, and you can see that even for the same person, the data collected twice can be very different. So, there are two ways to solve this problem. The first is that I need to collect as much data as possible as a way to reach applications that are pervasive. Alternatively, I can personalize the model training for the user. However this has a high learning cost.
 
-I
 
 
 ---
